@@ -2,14 +2,18 @@ import React from 'react';
 import './App.css';
 import ConditionalRender from './components/ConditionalRender';
 import ConditionalState from './components/ConditionalState';
+import ExampleStyled from './components/ExampleStyled';
 import PracticeConditional from './components/PracticeConditional';
 import PracticeConditional2 from './components/PracticeConditional2';
 import PracticeOne from './components/PracticeOne';
 import PracticeTimer from './components/PracticeTimer';
 import PracticeTimerRender from './components/PracticeTimerRender';
+import TestStyled from './components/TestStyled';
 import TestUseEffect from './components/TestUseEffect';
 import Timer from './components/Timer';
 import TimerRender from './components/TimerRender';
+import UseEffectFetch from './components/UseEffectFetch';
+import UsingUseMemo from './components/UsingUseMemo';
 
 function App() {
   const nameArr = ['뽀로로', '루피', '크롱'];
@@ -20,7 +24,7 @@ function App() {
   };
   return (
     <div className="App">
-      <PracticeTimerRender />
+      <ExampleStyled />
       {/* <ConditionalState /> */}
       {/* <h1>안녕하세요!</h1>
       <span>반갑습니다.</span> */}
